@@ -50,8 +50,8 @@ export const axiosWrapper = (
     headers: {
       'Content-Type': 'application/json',
       ...(options && options.headers ? options.headers : {}),
-      Authorization: `Bearer ${localStorage.getItem('grabBento')}`,
-      // 'X-Perm': 'can_get_bento',
+      // Authorization: `Bearer ${localStorage.getItem('grabBento')}`,
+      'X-Perm': 'can_get_bento',
     },
   }
   const payload = { ...data }
