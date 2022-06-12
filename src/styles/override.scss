@@ -1,0 +1,39 @@
+.package-search {
+  .ant-input-group {
+    line-height: 1 !important;
+  }
+  input {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 0.75rem !important;
+    line-height: 32px !important;
+  }
+  button {
+    padding: 0 0.25rem 0 0 !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+}
+
+.ant-select {
+  .ant-select-selector {
+    height: 38px !important;
+  }
+  .ant-select-selection-item {
+    line-height: 38px !important;
+  }
+}
+
+.custom-select {
+  .ant-select-selector {
+    padding: 0 !important;
+    height: 32px !important;
+  }
+  .ant-select-selection-item {
+    color: white !important;
+    line-height: 32px !important;
+  }
+}
